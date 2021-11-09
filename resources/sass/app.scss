@@ -1,1 +1,27 @@
-//
+
+@import 'partials/var.scss';
+@import 'layout/base.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    background-color: $header-bgr;
+    color: $header-txt;
+}
+main{
+    background-color: $main-bgr;
+    color: $main-txt;
+}
+footer{
+    padding: 20px 100px;
+    background-color: $footer-bgr;
+    color: $footer-txt;
+}

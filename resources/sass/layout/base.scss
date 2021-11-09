@@ -1,0 +1,16 @@
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    .card{
+        width: calc(100% / 5 - 20px);
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgba($color: #aaaa11, $alpha: 0.5);
+        *{
+            margin-bottom: 20px;
+        }
+    }
+}
