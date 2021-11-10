@@ -1,8 +1,13 @@
 .container {
   max-width: 1400px;
+  height: calc(100vh - 250px);
+  overflow: auto;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+}
+.container::-webkit-scrollbar{
+  display: none;
 }
 
 .container .card {
@@ -39,6 +44,7 @@ main {
 }
 
 footer {
+  height: 150px;
   padding: 20px 100px;
   background-color: #331155;
   color: #aadd88;
